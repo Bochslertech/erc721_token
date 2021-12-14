@@ -107,7 +107,7 @@ shared (install) actor class ERC721(init_minter: Principal) = this {
               };
             };
             case (_) {
-              // return #err(#Unauthorized(spender));
+              return #err(#Unauthorized(spender));
             };
           };
         };
