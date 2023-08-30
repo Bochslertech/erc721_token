@@ -1,4 +1,4 @@
-## Tests Locallt
+## Tests Locally
 
 - Download and Install [vessel](https://github.com/dfinity/vessel)
 - run `vessel install`
