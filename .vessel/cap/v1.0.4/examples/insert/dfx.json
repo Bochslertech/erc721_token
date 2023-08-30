@@ -1,7 +1,7 @@
 {
   "canisters": {
-    "erc721": {
-      "main": "src/ERC721.mo",
+    "cap-motoko-example": {
+      "main": "src/main.mo",
       "type": "motoko"
     }
   },
@@ -11,10 +11,10 @@
       "packtool": "vessel sources"
     }
   },
-  "dfx": "0.12.1",
+  "dfx": "0.8.5",
   "networks": {
     "local": {
-      "bind": "127.0.0.1:8001",
+      "bind": "127.0.0.1:8000",
       "type": "ephemeral"
     }
   },
